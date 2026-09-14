@@ -228,17 +228,28 @@
             </div>
         </a>
 
-        <div class="nav-links">
-            <a href="#portfolio" class="hover-target">Portfolio</a>
-            <a href="#services" class="hover-target">How It Works</a>
-            <a href="#pricing" class="hover-target">Pricing</a>
-            <a href="#contact" class="hover-target">Contact</a>
+        <div class="nav-links" id="nav-links">
+            <a href="#portfolio" class="hover-target nav-link-item">Portfolio</a>
+            <a href="#services" class="hover-target nav-link-item">How It Works</a>
+            <a href="#pricing" class="hover-target nav-link-item">Pricing</a>
+            <a href="#contact" class="hover-target nav-link-item">Contact</a>
+            <div class="mobile-nav-ctas">
+                <a href="https://wa.me/38267117291?text=Hello,%20I'm%20interested%20in%20VEYRA%20AERIAL%20cinematic%20production" target="_blank" rel="noopener noreferrer" class="btn-whatsapp-mobile hover-target">
+                    WhatsApp Chat
+                </a>
+                <button class="btn-primary-mobile hover-target open-inquiry-modal">Start Project</button>
+            </div>
         </div>
         <div class="nav-actions">
             <a href="https://wa.me/38267117291?text=Hello,%20I'm%20interested%20in%20VEYRA%20AERIAL%20cinematic%20production" target="_blank" rel="noopener noreferrer" class="btn-whatsapp-nav hover-target">
                 WhatsApp
             </a>
             <button class="btn-primary-small hover-target open-inquiry-modal">Start Project</button>
+            <button class="mobile-menu-toggle hover-target" id="mobile-menu-toggle" aria-label="Toggle Navigation Menu" aria-expanded="false">
+                <span class="bar-line line-1"></span>
+                <span class="bar-line line-2"></span>
+                <span class="bar-line line-3"></span>
+            </button>
         </div>
     </nav>
 
@@ -608,7 +619,7 @@
                         <div class="expert-card">
                             <div class="expert-head">
                                 <div class="expert-avatar">
-                                    "<img src="Slike/Luka%20Devic/IMG_4551.jpeg" alt="Luka Dević">
+                                    <img src="Slike/Luka Devic/IMG_4551 (1).jpeg" alt="Luka Dević">
                                 </div>
                                 <div class="expert-meta">
                                     <h3>Luka Dević</h3>
@@ -619,6 +630,12 @@
                             <p class="expert-quote">"We don't just showcase architectural properties. We generate the visceral emotion a client experiences before setting foot on your estate."</p>
                             
                             <div class="contact-actions">
+                                <form action="https://formsubmit.co/your@email.com" method="POST" class="contact-quick-form">
+                                    <input type="text" name="name" placeholder="Your Name" required class="form-control" style="margin-bottom: 10px;">
+                                    <input type="email" name="email" placeholder="Your Email" required class="form-control" style="margin-bottom: 12px;">
+                                    <button type="submit" class="btn-primary-full hover-target" style="margin-bottom: 12px;">Send</button>
+                                </form>
+
                                 <a href="https://wa.me/38267117291?text=Hello%20Luka%2C%20I%20would%20like%20to%20discuss%20a%20project%20with%20VEYRA%20AERIAL." target="_blank" rel="noopener noreferrer" class="btn-whatsapp-full hover-target">
                                     Chat on WhatsApp
                                 </a>
